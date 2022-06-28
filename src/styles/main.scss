@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$font-inter: 'Inter', sans-serif;
+
+$accent: #F57500;
+
+$r_mob_400: 400px;
+$r_mob_500: 500px;
+$r_tab: 768px;
+$r_tab_900: 900px;
+$r_desk_1120: 1120px;
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.4rem;
+	font-family: $font-inter;
+	position: relative;
+	color: $accent;
+	min-width: 320px;
+}
+
